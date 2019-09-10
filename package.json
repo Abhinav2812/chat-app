@@ -1,0 +1,17 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A realtime broadcast chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Kumar Abhinav, Ashutosh Bang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "nodemon": "^1.19.2",
+    "socket.io": "^2.2.0"
+  }
+}
