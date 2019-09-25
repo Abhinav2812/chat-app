@@ -23,7 +23,8 @@ export function sendMsg(msg) {
 export function setUsername() {
     while(!username) {
         username = prompt('Username:');
-        username = username.trim();
+        if(username !== null)
+            username = username.trim();
     }
 }
 setUsername();
